@@ -10,7 +10,11 @@ const peoples = lodash.times(50, function(n){
         firstName: firstName,
         lastName: lastName,
         avatar: faker.image.avatar(),
-        email: faker.internet.email({firstName: firstName.toLowerCase(), lastName: lastName.toLowerCase()})
+        email: faker.internet.email({firstName: firstName.toLowerCase(), lastName: lastName.toLowerCase()}),
+        addres: faker.location.streetAddress(),
+        telephone: faker.phone.number('##-####-####'),
+        ChemicalElement: faker.helpers.arrayElement(['Hidrogênio', 'Oxigênio', 'Carbono', 'Nitrogênio', 'Ferro', 'Cálcio', 'Potássio', 'Sódio', 'Cloro', 'Magnésio']),
+        
         }
     }
 );

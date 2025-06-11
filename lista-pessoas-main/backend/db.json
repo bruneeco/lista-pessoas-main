@@ -2,353 +2,503 @@
   "peoples": [
     {
       "id": 1,
-      "firstName": "Benício",
-      "lastName": "Nogueira",
-      "avatar": "https://avatars.githubusercontent.com/u/16192858",
-      "email": "benicio_nogueira@gmail.com"
+      "firstName": "Carla",
+      "lastName": "Moreira",
+      "avatar": "https://avatars.githubusercontent.com/u/59140898",
+      "email": "carla.moreira@yahoo.com",
+      "addres": "19203 Travessa Macedo",
+      "telephone": "+55 (87) 9187-9050",
+      "ChemicalElement": "Cloro"
     },
     {
       "id": 2,
-      "firstName": "Melissa",
-      "lastName": "Franco",
-      "avatar": "https://avatars.githubusercontent.com/u/26496861",
-      "email": "melissa.franco@bol.com.br"
+      "firstName": "Lívia",
+      "lastName": "Carvalho",
+      "avatar": "https://avatars.githubusercontent.com/u/96464506",
+      "email": "livia_carvalho@live.com",
+      "addres": "548 Rua Costa",
+      "telephone": "(97) 92675-9804",
+      "ChemicalElement": "Cloro"
     },
     {
       "id": 3,
-      "firstName": "Kléber",
-      "lastName": "Reis",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/0.jpg",
-      "email": "kleber_reis@hotmail.com"
+      "firstName": "Daniel",
+      "lastName": "Silva",
+      "avatar": "https://avatars.githubusercontent.com/u/1196658",
+      "email": "daniel_silva44@live.com",
+      "addres": "2718 Rodovia Félix",
+      "telephone": "(81) 7068-0332",
+      "ChemicalElement": "Cálcio"
     },
     {
       "id": 4,
-      "firstName": "Antonella",
-      "lastName": "Moreira",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/98.jpg",
-      "email": "antonella_moreira4@gmail.com"
+      "firstName": "Enzo Gabriel",
+      "lastName": "Nogueira",
+      "avatar": "https://avatars.githubusercontent.com/u/2300638",
+      "email": "enzogabriel.nogueira48@yahoo.com",
+      "addres": "476 Alameda Isabelly",
+      "telephone": "(63) 9288-2975",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 5,
-      "firstName": "Cauã",
-      "lastName": "Silva",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/83.jpg",
-      "email": "caua.silva33@gmail.com"
+      "firstName": "Heloísa",
+      "lastName": "Nogueira",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/23.jpg",
+      "email": "heloisa.nogueira37@yahoo.com",
+      "addres": "45055 Avenida Moreira",
+      "telephone": "(68) 3108-0637",
+      "ChemicalElement": "Sódio"
     },
     {
       "id": 6,
-      "firstName": "Marcelo",
-      "lastName": "Batista",
-      "avatar": "https://avatars.githubusercontent.com/u/67457870",
-      "email": "marcelo_batista25@bol.com.br"
+      "firstName": "Benjamin",
+      "lastName": "Martins",
+      "avatar": "https://avatars.githubusercontent.com/u/18666277",
+      "email": "benjamin.martins@bol.com.br",
+      "addres": "9922 Rua Carvalho",
+      "telephone": "(38) 53070-3230",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 7,
-      "firstName": "Antônio",
-      "lastName": "Pereira",
-      "avatar": "https://avatars.githubusercontent.com/u/42330822",
-      "email": "antonio.pereira@live.com"
+      "firstName": "Marcos",
+      "lastName": "Barros",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/18.jpg",
+      "email": "marcos_barros@hotmail.com",
+      "addres": "2223 Rua Elisa",
+      "telephone": "(13) 0784-1121",
+      "ChemicalElement": "Nitrogênio"
     },
     {
       "id": 8,
-      "firstName": "Giovanna",
-      "lastName": "Santos",
-      "avatar": "https://avatars.githubusercontent.com/u/10546963",
-      "email": "giovanna.santos58@live.com"
+      "firstName": "Silas",
+      "lastName": "Nogueira",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg",
+      "email": "silas_nogueira@gmail.com",
+      "addres": "5750 Alameda Costa",
+      "telephone": "(11) 5641-9829",
+      "ChemicalElement": "Potássio"
     },
     {
       "id": 9,
-      "firstName": "Isabela",
-      "lastName": "Moreira",
-      "avatar": "https://avatars.githubusercontent.com/u/57639584",
-      "email": "isabela.moreira@bol.com.br"
+      "firstName": "Bernardo",
+      "lastName": "Carvalho",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/26.jpg",
+      "email": "bernardo_carvalho97@gmail.com",
+      "addres": "29380 Rua Pereira",
+      "telephone": "+55 (16) 8651-4780",
+      "ChemicalElement": "Cloro"
     },
     {
       "id": 10,
-      "firstName": "Henrique",
-      "lastName": "Reis",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/82.jpg",
-      "email": "henrique.reis@bol.com.br"
+      "firstName": "Noah",
+      "lastName": "Moraes",
+      "avatar": "https://avatars.githubusercontent.com/u/56002684",
+      "email": "noah.moraes@bol.com.br",
+      "addres": "2420 Travessa Rafael",
+      "telephone": "+55 (20) 6156-4492",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 11,
-      "firstName": "Yago",
-      "lastName": "Moraes",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/70.jpg",
-      "email": "yago.moraes@bol.com.br"
+      "firstName": "Roberto",
+      "lastName": "Reis",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/84.jpg",
+      "email": "roberto.reis@yahoo.com",
+      "addres": "5528 Alameda Davi Lucca",
+      "telephone": "(94) 5607-2848",
+      "ChemicalElement": "Potássio"
     },
     {
       "id": 12,
-      "firstName": "Hugo",
-      "lastName": "Reis",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/82.jpg",
-      "email": "hugo.reis@yahoo.com"
+      "firstName": "Ofélia",
+      "lastName": "Barros",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/15.jpg",
+      "email": "ofelia_barros@hotmail.com",
+      "addres": "314 Marginal Oliveira",
+      "telephone": "(77) 30018-4690",
+      "ChemicalElement": "Sódio"
     },
     {
       "id": 13,
-      "firstName": "João Lucas",
-      "lastName": "Braga",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/97.jpg",
-      "email": "joaolucas.braga@hotmail.com"
+      "firstName": "Luiza",
+      "lastName": "Barros",
+      "avatar": "https://avatars.githubusercontent.com/u/50517904",
+      "email": "luiza_barros92@yahoo.com",
+      "addres": "2278 Marginal Saraiva",
+      "telephone": "+55 (45) 4628-8188",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 14,
-      "firstName": "Lorenzo",
-      "lastName": "Santos",
-      "avatar": "https://avatars.githubusercontent.com/u/49912261",
-      "email": "lorenzo.santos95@bol.com.br"
+      "firstName": "Salvador",
+      "lastName": "Pereira",
+      "avatar": "https://avatars.githubusercontent.com/u/71758403",
+      "email": "salvador_pereira@bol.com.br",
+      "addres": "22704 Rua Braga",
+      "telephone": "(22) 7507-7495",
+      "ChemicalElement": "Potássio"
     },
     {
       "id": 15,
-      "firstName": "Isabella",
-      "lastName": "Xavier",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/38.jpg",
-      "email": "isabella_xavier@yahoo.com"
+      "firstName": "João Lucas",
+      "lastName": "Batista",
+      "avatar": "https://avatars.githubusercontent.com/u/57812738",
+      "email": "joaolucas_batista70@hotmail.com",
+      "addres": "2837 Marginal Santos",
+      "telephone": "+55 (10) 1329-8532",
+      "ChemicalElement": "Oxigênio"
     },
     {
       "id": 16,
-      "firstName": "Manuela",
-      "lastName": "Oliveira",
-      "avatar": "https://avatars.githubusercontent.com/u/38336817",
-      "email": "manuela.oliveira@gmail.com"
+      "firstName": "Ana Clara",
+      "lastName": "Moraes",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/9.jpg",
+      "email": "anaclara.moraes@yahoo.com",
+      "addres": "9816 Rua Nogueira",
+      "telephone": "(30) 14268-6815",
+      "ChemicalElement": "Nitrogênio"
     },
     {
       "id": 17,
-      "firstName": "Matheus",
-      "lastName": "Batista",
-      "avatar": "https://avatars.githubusercontent.com/u/86822055",
-      "email": "matheus.batista10@live.com"
+      "firstName": "Feliciano",
+      "lastName": "Oliveira",
+      "avatar": "https://avatars.githubusercontent.com/u/48062336",
+      "email": "feliciano_oliveira82@yahoo.com",
+      "addres": "2700 Travessa Souza",
+      "telephone": "(88) 7815-9716",
+      "ChemicalElement": "Cálcio"
     },
     {
       "id": 18,
-      "firstName": "Suélen",
-      "lastName": "Nogueira",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/46.jpg",
-      "email": "suelen_nogueira@yahoo.com"
+      "firstName": "Isaac",
+      "lastName": "Moraes",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/48.jpg",
+      "email": "isaac_moraes46@live.com",
+      "addres": "1418 Avenida Eloá",
+      "telephone": "(26) 6683-1374",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 19,
-      "firstName": "Júlio César",
-      "lastName": "Macedo",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/41.jpg",
-      "email": "juliocesar.macedo@yahoo.com"
+      "firstName": "Liz",
+      "lastName": "Reis",
+      "avatar": "https://avatars.githubusercontent.com/u/84915177",
+      "email": "liz.reis@bol.com.br",
+      "addres": "72146 Rodovia Beatriz",
+      "telephone": "(37) 6104-9650",
+      "ChemicalElement": "Sódio"
     },
     {
       "id": 20,
-      "firstName": "Valentina",
-      "lastName": "Carvalho",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/55.jpg",
-      "email": "valentina_carvalho63@bol.com.br"
+      "firstName": "Núbia",
+      "lastName": "Pereira",
+      "avatar": "https://avatars.githubusercontent.com/u/46832121",
+      "email": "nubia.pereira@hotmail.com",
+      "addres": "935 Rua Henrique",
+      "telephone": "(42) 5046-7450",
+      "ChemicalElement": "Cloro"
     },
     {
       "id": 21,
-      "firstName": "Deneval",
-      "lastName": "Albuquerque",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/16.jpg",
-      "email": "deneval.albuquerque82@hotmail.com"
+      "firstName": "Helena",
+      "lastName": "Pereira",
+      "avatar": "https://avatars.githubusercontent.com/u/20004305",
+      "email": "helena_pereira82@yahoo.com",
+      "addres": "7498 Rodovia Santos",
+      "telephone": "(24) 14557-1933",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 22,
-      "firstName": "Maria Cecília",
-      "lastName": "Xavier",
-      "avatar": "https://avatars.githubusercontent.com/u/43378132",
-      "email": "mariacecilia.xavier7@gmail.com"
+      "firstName": "Morgana",
+      "lastName": "Costa",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/58.jpg",
+      "email": "morgana.costa6@gmail.com",
+      "addres": "34223 Avenida Xavier",
+      "telephone": "+55 (93) 3946-5240",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 23,
-      "firstName": "Roberta",
-      "lastName": "Braga",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/94.jpg",
-      "email": "roberta.braga15@bol.com.br"
+      "firstName": "Laura",
+      "lastName": "Barros",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/97.jpg",
+      "email": "laura.barros@bol.com.br",
+      "addres": "776 Alameda Silva",
+      "telephone": "(44) 64558-5428",
+      "ChemicalElement": "Oxigênio"
     },
     {
       "id": 24,
-      "firstName": "Frederico",
-      "lastName": "Souza",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/11.jpg",
-      "email": "frederico.souza25@hotmail.com"
+      "firstName": "Sílvia",
+      "lastName": "Martins",
+      "avatar": "https://avatars.githubusercontent.com/u/1391966",
+      "email": "silvia.martins52@yahoo.com",
+      "addres": "55675 Rua Martins",
+      "telephone": "+55 (68) 5326-4740",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 25,
-      "firstName": "Isadora",
-      "lastName": "Martins",
-      "avatar": "https://avatars.githubusercontent.com/u/66521769",
-      "email": "isadora_martins@gmail.com"
+      "firstName": "Davi Lucca",
+      "lastName": "Nogueira",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/54.jpg",
+      "email": "davilucca.nogueira23@yahoo.com",
+      "addres": "175 Rodovia Barros",
+      "telephone": "+55 (40) 6558-4701",
+      "ChemicalElement": "Cálcio"
     },
     {
       "id": 26,
-      "firstName": "Anthony",
-      "lastName": "Batista",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/10.jpg",
-      "email": "anthony_batista@gmail.com"
+      "firstName": "Margarida",
+      "lastName": "Martins",
+      "avatar": "https://avatars.githubusercontent.com/u/82985122",
+      "email": "margarida_martins@gmail.com",
+      "addres": "797 Rua Alícia",
+      "telephone": "(21) 9267-9350",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 27,
-      "firstName": "Isabel",
-      "lastName": "Barros",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/31.jpg",
-      "email": "isabel.barros17@gmail.com"
+      "firstName": "Bruna",
+      "lastName": "Nogueira",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/13.jpg",
+      "email": "bruna.nogueira@gmail.com",
+      "addres": "56054 Rua Franco",
+      "telephone": "(12) 3420-5081",
+      "ChemicalElement": "Nitrogênio"
     },
     {
       "id": 28,
-      "firstName": "Yasmin",
-      "lastName": "Braga",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/51.jpg",
-      "email": "yasmin.braga30@yahoo.com"
+      "firstName": "Elisa",
+      "lastName": "Albuquerque",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/13.jpg",
+      "email": "elisa_albuquerque13@yahoo.com",
+      "addres": "482 Travessa Raul",
+      "telephone": "(62) 0734-6162",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 29,
-      "firstName": "Alessandro",
-      "lastName": "Silva",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/48.jpg",
-      "email": "alessandro_silva@yahoo.com"
+      "firstName": "Guilherme",
+      "lastName": "Pereira",
+      "avatar": "https://avatars.githubusercontent.com/u/20334332",
+      "email": "guilherme_pereira92@hotmail.com",
+      "addres": "765 Marginal Fabrícia",
+      "telephone": "(63) 4238-4838",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 30,
-      "firstName": "Fabrício",
-      "lastName": "Reis",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/2.jpg",
-      "email": "fabricio_reis@bol.com.br"
+      "firstName": "Lívia",
+      "lastName": "Xavier",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/39.jpg",
+      "email": "livia.xavier84@gmail.com",
+      "addres": "602 Avenida Saraiva",
+      "telephone": "(43) 23177-3870",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 31,
-      "firstName": "Elísio",
-      "lastName": "Souza",
-      "avatar": "https://avatars.githubusercontent.com/u/91376481",
-      "email": "elisio.souza57@hotmail.com"
+      "firstName": "Aline",
+      "lastName": "Oliveira",
+      "avatar": "https://avatars.githubusercontent.com/u/58421762",
+      "email": "aline_oliveira@live.com",
+      "addres": "81295 Travessa Laura",
+      "telephone": "+55 (00) 4080-2267",
+      "ChemicalElement": "Potássio"
     },
     {
       "id": 32,
-      "firstName": "Alessandra",
-      "lastName": "Nogueira",
-      "avatar": "https://avatars.githubusercontent.com/u/58912513",
-      "email": "alessandra_nogueira@bol.com.br"
+      "firstName": "Gustavo",
+      "lastName": "Barros",
+      "avatar": "https://avatars.githubusercontent.com/u/89805873",
+      "email": "gustavo.barros@hotmail.com",
+      "addres": "15474 Marginal Carvalho",
+      "telephone": "(61) 90638-8629",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 33,
-      "firstName": "Elísio",
-      "lastName": "Santos",
-      "avatar": "https://avatars.githubusercontent.com/u/54949885",
-      "email": "elisio_santos@live.com"
+      "firstName": "Isaac",
+      "lastName": "Franco",
+      "avatar": "https://avatars.githubusercontent.com/u/98035560",
+      "email": "isaac_franco71@yahoo.com",
+      "addres": "8340 Marginal Macedo",
+      "telephone": "+55 (50) 3726-2383",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 34,
-      "firstName": "Vicente",
-      "lastName": "Albuquerque",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/77.jpg",
-      "email": "vicente.albuquerque@hotmail.com"
+      "firstName": "Maria Alice",
+      "lastName": "Saraiva",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/83.jpg",
+      "email": "mariaalice_saraiva@live.com",
+      "addres": "274 Rodovia Lara",
+      "telephone": "(98) 5583-5899",
+      "ChemicalElement": "Ferro"
     },
     {
       "id": 35,
-      "firstName": "Deneval",
-      "lastName": "Pereira",
-      "avatar": "https://avatars.githubusercontent.com/u/35419473",
-      "email": "deneval_pereira@hotmail.com"
+      "firstName": "Beatriz",
+      "lastName": "Albuquerque",
+      "avatar": "https://avatars.githubusercontent.com/u/49256825",
+      "email": "beatriz.albuquerque21@yahoo.com",
+      "addres": "41834 Travessa Reis",
+      "telephone": "(76) 3228-6577",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 36,
-      "firstName": "Kléber",
-      "lastName": "Macedo",
-      "avatar": "https://avatars.githubusercontent.com/u/75496239",
-      "email": "kleber.macedo44@live.com"
+      "firstName": "Rafaela",
+      "lastName": "Costa",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/22.jpg",
+      "email": "rafaela_costa@hotmail.com",
+      "addres": "51708 Alameda Lorraine",
+      "telephone": "(92) 92959-4328",
+      "ChemicalElement": "Oxigênio"
     },
     {
       "id": 37,
-      "firstName": "Larissa",
-      "lastName": "Moreira",
-      "avatar": "https://avatars.githubusercontent.com/u/1191628",
-      "email": "larissa_moreira@live.com"
+      "firstName": "Marcela",
+      "lastName": "Macedo",
+      "avatar": "https://avatars.githubusercontent.com/u/73603462",
+      "email": "marcela.macedo42@gmail.com",
+      "addres": "799 Travessa Márcia",
+      "telephone": "(80) 87178-7413",
+      "ChemicalElement": "Cálcio"
     },
     {
       "id": 38,
-      "firstName": "Ricardo",
-      "lastName": "Barros",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/13.jpg",
-      "email": "ricardo_barros@bol.com.br"
+      "firstName": "Dalila",
+      "lastName": "Macedo",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/60.jpg",
+      "email": "dalila_macedo45@gmail.com",
+      "addres": "67802 Alameda Lucca",
+      "telephone": "(83) 3046-6155",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 39,
-      "firstName": "Márcia",
-      "lastName": "Oliveira",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/13.jpg",
-      "email": "marcia_oliveira93@yahoo.com"
+      "firstName": "Alícia",
+      "lastName": "Souza",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/86.jpg",
+      "email": "alicia_souza46@hotmail.com",
+      "addres": "637 Rua Suélen",
+      "telephone": "+55 (24) 9408-1741",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 40,
-      "firstName": "Calebe",
-      "lastName": "Batista",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/5.jpg",
-      "email": "calebe_batista15@gmail.com"
+      "firstName": "Isaac",
+      "lastName": "Moreira",
+      "avatar": "https://avatars.githubusercontent.com/u/17267294",
+      "email": "isaac_moreira@bol.com.br",
+      "addres": "5009 Rodovia Eduardo",
+      "telephone": "(26) 5157-7221",
+      "ChemicalElement": "Nitrogênio"
     },
     {
       "id": 41,
-      "firstName": "Carlos",
-      "lastName": "Santos",
-      "avatar": "https://avatars.githubusercontent.com/u/3544262",
-      "email": "carlos.santos@bol.com.br"
+      "firstName": "Tertuliano",
+      "lastName": "Barros",
+      "avatar": "https://avatars.githubusercontent.com/u/87600219",
+      "email": "tertuliano_barros36@live.com",
+      "addres": "4503 Alameda Silva",
+      "telephone": "(59) 5981-0796",
+      "ChemicalElement": "Cloro"
     },
     {
       "id": 42,
-      "firstName": "Benjamin",
-      "lastName": "Saraiva",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/8.jpg",
-      "email": "benjamin.saraiva16@bol.com.br"
+      "firstName": "Frederico",
+      "lastName": "Oliveira",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/87.jpg",
+      "email": "frederico.oliveira@bol.com.br",
+      "addres": "4043 Alameda Noah",
+      "telephone": "+55 (24) 3712-8476",
+      "ChemicalElement": "Carbono"
     },
     {
       "id": 43,
-      "firstName": "Célia",
-      "lastName": "Xavier",
-      "avatar": "https://avatars.githubusercontent.com/u/50884896",
-      "email": "celia.xavier6@bol.com.br"
+      "firstName": "Ricardo",
+      "lastName": "Costa",
+      "avatar": "https://avatars.githubusercontent.com/u/79554847",
+      "email": "ricardo.costa17@live.com",
+      "addres": "674 Avenida Moraes",
+      "telephone": "(67) 34390-2451",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 44,
-      "firstName": "Hélio",
-      "lastName": "Xavier",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/0.jpg",
-      "email": "helio_xavier46@yahoo.com"
+      "firstName": "Antônio",
+      "lastName": "Melo",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/46.jpg",
+      "email": "antonio_melo16@live.com",
+      "addres": "42655 Avenida Saraiva",
+      "telephone": "+55 (97) 1419-0017",
+      "ChemicalElement": "Cloro"
     },
     {
       "id": 45,
-      "firstName": "Gabriel",
-      "lastName": "Pereira",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/20.jpg",
-      "email": "gabriel.pereira35@live.com"
+      "firstName": "Fabrícia",
+      "lastName": "Albuquerque",
+      "avatar": "https://avatars.githubusercontent.com/u/82156496",
+      "email": "fabricia.albuquerque@hotmail.com",
+      "addres": "15964 Rodovia Albuquerque",
+      "telephone": "(07) 75167-1800",
+      "ChemicalElement": "Sódio"
     },
     {
       "id": 46,
-      "firstName": "Enzo",
-      "lastName": "Barros",
-      "avatar": "https://avatars.githubusercontent.com/u/26558997",
-      "email": "enzo_barros@live.com"
+      "firstName": "Isabela",
+      "lastName": "Souza",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/11.jpg",
+      "email": "isabela.souza3@live.com",
+      "addres": "58941 Travessa Yuri",
+      "telephone": "(70) 6730-3155",
+      "ChemicalElement": "Cálcio"
     },
     {
       "id": 47,
-      "firstName": "Morgana",
-      "lastName": "Xavier",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/3.jpg",
-      "email": "morgana_xavier43@live.com"
+      "firstName": "Lara",
+      "lastName": "Silva",
+      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/93.jpg",
+      "email": "lara_silva1@live.com",
+      "addres": "670 Alameda Gustavo",
+      "telephone": "(96) 8664-4236",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 48,
-      "firstName": "Ladislau",
-      "lastName": "Batista",
-      "avatar": "https://avatars.githubusercontent.com/u/83319805",
-      "email": "ladislau.batista@gmail.com"
+      "firstName": "Ricardo",
+      "lastName": "Costa",
+      "avatar": "https://avatars.githubusercontent.com/u/65207834",
+      "email": "ricardo_costa31@live.com",
+      "addres": "93301 Rodovia Reis",
+      "telephone": "(15) 01842-3143",
+      "ChemicalElement": "Hidrogênio"
     },
     {
       "id": 49,
-      "firstName": "Maria Helena",
+      "firstName": "Pedro Henrique",
       "lastName": "Moreira",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/male/512/48.jpg",
-      "email": "mariahelena.moreira@hotmail.com"
+      "avatar": "https://avatars.githubusercontent.com/u/29368513",
+      "email": "pedrohenrique.moreira@hotmail.com",
+      "addres": "3598 Avenida Santos",
+      "telephone": "(08) 44484-9256",
+      "ChemicalElement": "Magnésio"
     },
     {
       "id": 50,
-      "firstName": "Joaquim",
-      "lastName": "Santos",
-      "avatar": "https://cdn.jsdelivr.net/gh/faker-js/assets-person-portrait/female/512/49.jpg",
-      "email": "joaquim.santos@live.com"
+      "firstName": "Lívia",
+      "lastName": "Moreira",
+      "avatar": "https://avatars.githubusercontent.com/u/26611157",
+      "email": "livia_moreira89@hotmail.com",
+      "addres": "255 Travessa Isadora",
+      "telephone": "(54) 8058-9056",
+      "ChemicalElement": "Hidrogênio"
     }
   ]
 }

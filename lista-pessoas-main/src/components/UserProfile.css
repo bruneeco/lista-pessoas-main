@@ -1,0 +1,51 @@
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 5px solid #6d4c41; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 60px;
+    background: linear-gradient(135deg, #fbe9e7, #d7ccc8); 
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.escrita {
+    font-size: 22px;
+    color: #4e342e; 
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.x {
+    background-color: #8d6e63; 
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.x:hover {
+    background-color: #5d4037;
+}
