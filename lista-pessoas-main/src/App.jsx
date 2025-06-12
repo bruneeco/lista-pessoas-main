@@ -7,7 +7,7 @@ function App() {
   // estados para armazenar a dados que podem ser alterados
   const [usuarios, setUsuarios] = useState([]);
   const [pagina, setPagina] = useState(1);
-  const limitePorPagina = 4; 
+  const limitePorPagina = 5; 
   const [perfilSelecionado, setPerfilSelecionado] = useState(null); 
 
 

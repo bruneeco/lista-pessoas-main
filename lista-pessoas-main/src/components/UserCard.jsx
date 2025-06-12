@@ -6,10 +6,10 @@ function UserCard({ user, onClick }) {
   return (
     <a onClick={() => onClick(user)} style={{ cursor: 'pointer' }}>
     <div className="user-card">
-      <img src={user.avatar} alt={`${user.firstname} avatar`}  />
-      <h3 className="name">{user.firstname} {user.lastname}</h3>
+      <img src={user.avatar} alt={`${user.firstName} avatar`}  />
+      <h3 className="name">{user.firstName} {user.lastName}</h3>
       <p>{user.email}</p>
-      <small>{user.address}</small>
+      <small>{user.telephone}</small>
     </div>
     </a>
   );
