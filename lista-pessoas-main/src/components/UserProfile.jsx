@@ -1,7 +1,7 @@
 import './UserProfile.css';
 
 
-//retorna o perfil do usuário com os dados que foram passados no card
+//retorna o perfil do usuario com os dados que foram passados no card
 function UserProfile({ user, onVoltar }) {
     return (
       <div className="user-profile">

@@ -14,7 +14,6 @@ const peoples = lodash.times(50, function(n){
         addres: faker.location.streetAddress(),
         telephone: faker.phone.number('##-####-####'),
         ChemicalElement: faker.helpers.arrayElement(['Hidrogênio', 'Oxigênio', 'Carbono', 'Nitrogênio', 'Ferro', 'Cálcio', 'Potássio', 'Sódio', 'Cloro', 'Magnésio']),
-        
         }
     }
 );

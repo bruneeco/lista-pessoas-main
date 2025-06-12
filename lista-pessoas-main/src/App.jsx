@@ -1,77 +1,78 @@
-// Importações principais
-import { useState, useEffect } from 'react';
-import UserCard from './components/UserCard';
+import { useState, useEffect } from 'react'; 
+import UserCard from './components/UserCard'; 
 import UserProfile from './components/UserProfile.jsx';
-import './App.css';
+import './App.css'; 
 
 function App() {
-  // Estados para armazenar usuários, página atual e seleção de perfil
+  // estados para armazenar a dados que podem ser alterados
   const [usuarios, setUsuarios] = useState([]);
   const [pagina, setPagina] = useState(1);
-  const limitePorPagina = 4;
-  const [perfilSelecionado, setPerfilSelecionado] = useState(null);
+  const limitePorPagina = 4; 
+  const [perfilSelecionado, setPerfilSelecionado] = useState(null); 
 
-  // Requisição para buscar os dados dos usuários
+
+  // faz a requisiçao dos usuarios 
   useEffect(() => {
-    const carregarUsuarios = async () => {
-      try {
-        const resposta = await fetch('http://localhost:3001/peoples');
-        const dados = await resposta.json();
-        setUsuarios(dados);
-      } catch (erro) {
-        console.error('Erro ao carregar dados dos usuários:', erro);
-      }
-    };
-
-    carregarUsuarios();
+    fetch('http://localhost:3001/peoples') 
+      .then((res) => res.json()) 
+      .then((data) => setUsuarios(data)) 
+      .catch((err) => console.error('Erro ao buscar usuários:', err)); 
   }, []);
 
-  // Calcula de quais usuários devem ser exibidos na página atual
-  const inicio = (pagina - 1) * limitePorPagina;
-  const fim = pagina * limitePorPagina;
-  const usuariosNaPagina = usuarios.slice(inicio, fim);
+  // calcula o indice inicial e final dos usuarios que vão aparecer na página atual
+  const inicio = (pagina - 1) * limitePorPagina; // Ex: página 2 => (2 - 1) * 4 = 4
+  const fim = pagina * limitePorPagina; // Ex: 2 * 4 = 8
+  const usuariosNaPagina = usuarios.slice(inicio, fim); // seleciona apenas os usuarios da pagina atual
 
-  // Funcoes de navegaçao
+  // função para avançar para a proxima pagina
   const proximaPagina = () => {
-    const totalPaginas = Math.ceil(usuarios.length / limitePorPagina);
-    if (pagina < totalPaginas) {
+    const totalPaginas = Math.ceil(usuarios.length / limitePorPagina); //total de paginas com base na quantidade de usuários
+    //math.ceil arredonda para cima o valor, garantindo que se houver um usuario a mais, uma nova pagina seja criada
+    if (pagina < totalPaginas) { // só avança se ainda houver mais paginas
       setPagina(pagina + 1);
     }
   };
 
+  // função para voltar para a pagina anterior
   const paginaAnterior = () => {
-    if (pagina > 1) {
+    if (pagina > 1) { // só volta se não estiver na primeira pagina
       setPagina(pagina - 1);
     }
   };
 
-  // Lógica de exibição do perfil selecionado
+  // função que define qual perfil de usuario será exibido
   const exibirPerfil = (usuario) => {
-    setPerfilSelecionado(usuario);
+    setPerfilSelecionado(usuario); // armazena o usuario clicado
   };
 
+  // função que limpa o perfil selecionado e volta para a lista
   const voltarAoDashboard = () => {
-    setPerfilSelecionado(null);
+    setPerfilSelecionado(null); // reseta o estado, escondendo o perfil
   };
 
+  // renderiza o perfil do usuario se houver um selecionado,
+  // caso contrario, mostra a lista com os botões de navegação
   return (
     <div className="App">
       {perfilSelecionado ? (
+        // mostra o perfil do usuario selecionado
         <UserProfile user={perfilSelecionado} onVoltar={voltarAoDashboard} />
       ) : (
         <>
           <h1>Painel de Usuários</h1>
           <p>Usuários encontrados: {usuarios.length}</p>
 
+          {/* lista os usuarios da pagina atual */}
           <div className="user-container">
             {usuariosNaPagina.map((usuario) => (
               <UserCard key={usuario.id} user={usuario} onClick={exibirPerfil} />
             ))}
           </div>
 
+          {/* controles de navegação de paginas */}
           <div className="paginas">
             <button onClick={paginaAnterior} disabled={pagina === 1}>
-              &lt;
+              &lt; {/* seta para esquerda */}
             </button>
             <span>
               Página {pagina} de {Math.ceil(usuarios.length / limitePorPagina)}
@@ -80,7 +81,7 @@ function App() {
               onClick={proximaPagina}
               disabled={pagina === Math.ceil(usuarios.length / limitePorPagina)}
             >
-              &gt;
+              &gt; {/* seta para direita */}
             </button>
           </div>
         </>
@@ -89,4 +90,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
